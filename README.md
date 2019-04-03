@@ -33,6 +33,11 @@ source venv/bin/activate
 pip3 install -r requirements.txt
 ```
 
+Test it out!
+```
+./robot_project/main.py
+```
+
 ### Useful Git Links
 
 **Do not run the 'git init' command**
