@@ -45,3 +45,47 @@ Test it out!
 * http://www.rogerdudler.github.io/git-guide
 * https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet
 
+###Useful Linux Commands:
+
+**NOTE**: Use the '--help' option with any command to see additional arguments.
+
+```
+ls (List the contents of a directory)
+cd (Move to another directory)
+pwd (Show where you are in the file system)
+cp (Copy a file)
+mv (Move a file)
+rm (Remove a file)
+
+mkdir (Make a directory)
+rmdir (Remove a directory)
+
+history (Show your command history)
+
+touch (Make a file)
+grep (Seach a file)
+find (Find a file)
+
+top (Display process and cpu usage)
+free (Display memory usage)
+df (Display disk usage)
+
+chmod (Change file permissions)
+chown (Change file ownership)
+```
+
+Some useful networking commands:
+```
+ifconfig
+ip addr
+ip route
+route
+```
+
+Some useful package management commands:
+```
+sudo apt update
+sudo apt upgrade
+sudo apt search
+sudo apt install
+```
