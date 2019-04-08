@@ -81,7 +81,7 @@ git add --all  # Add the modifications you wish to commit (in this case all)
 git commit -sm "<A detailed message of the change you are proposing>"
 ```
 
-You can make **multiple commits** before you are ready to **push**. When you are ready, run the following commands:
+You can make **multiple commits** before you are ready to **push**. When you are ready, run the following command:
 ```
 git push origin --set-upstream <branch name> 
 ```
