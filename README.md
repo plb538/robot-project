@@ -6,7 +6,7 @@
 Install some required packages:
 ```
 sudo apt update & sudo apt upgrade -y
-sudo apt install git python3 python3-pip
+sudo apt install git python3 python3-pip python3-venv
 ```
 
 Tell Git who you are:
@@ -45,7 +45,7 @@ Test it out!
 * http://www.rogerdudler.github.io/git-guide
 * https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet
 
-###Useful Linux Commands:
+### Useful Linux Commands
 
 **NOTE**: Use the '--help' option with any command to see additional arguments.
 
