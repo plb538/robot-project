@@ -86,6 +86,7 @@ You can make **multiple commits** before you are ready to **push**. When you are
 git push origin --set-upstream <branch name> 
 ```
 
+From here, we will see it on Github.
 
 ## Useful Git Links
 
