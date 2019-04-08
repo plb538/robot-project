@@ -68,14 +68,6 @@ git pull
 ```
 
 Now that you have the latest changes, its time to create a new branch to work on:
-
-Option A)
-```
-git branch -a <new branch name>
-git checkout <new branch name>
-```
-
-Option B)
 ```
 git checkout -b <new branch name>  # The '-b' argument creates a new branch, and the checkout command switches to that new branch
 ```
