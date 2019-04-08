@@ -38,14 +38,71 @@ Test it out!
 ./robot_project/main.py
 ```
 
-### Useful Git Links
+## Development Workflow
+
+### Basics
+
+Make sure you are in the project directory (i.e. .../robot-project/).
+
+Use the ```git status``` command to see created/deleted/modified files.
+
+Use the ```git branch``` command to see what branch you are using.
+
+Use the ```git checkout <branch name>``` command to change which brach you are using.
+
+### How To Add To The Project
+
+To start, ensure your local copy of the master branch is up-to-date with Github's version:
+```
+git branch
+```
+
+If you are **not** on the master branch:
+```
+git checkout master
+``` 
+
+Once on the **master** branch, **pull** the latest changes from Github:
+```
+git pull
+```
+
+Now that you have the latest changes, its time to create a new branch to work on:
+
+Option A)
+```
+git branch -a <new branch name>
+git checkout <new branch name>
+```
+
+Option B)
+```
+git checkout -b <new branch name>  # The '-b' argument creates a new branch, and the checkout command switches to that new branch
+```
+
+Now make your changes on your new branch. When you are ready to add to the project, you must create a **Pull Request (PR)**.
+
+Save your changes and create your commit. Make sure you are on **your branch** and **not master**:
+```
+git status  # See modifications made to your branch
+git add --all  # Add the modifications you wish to commit (in this case all)
+git commit -sm "<A detailed message of the change you are proposing>"
+```
+
+You can make **multiple commits** before you are ready to **push**. When you are ready, run the following commands:
+```
+git push origin --set-upstream <branch name> 
+```
+
+
+## Useful Git Links
 
 **Do not run the 'git init' command**
 
 * http://www.rogerdudler.github.io/git-guide
 * https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet
 
-### Useful Linux Commands
+## Useful Linux Commands
 
 **NOTE**: Use the '--help' option with any command to see additional arguments.
 
