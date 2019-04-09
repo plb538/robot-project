@@ -42,7 +42,7 @@ Test it out!
 
 ### Basics
 
-Make sure you are in the project directory (i.e. .../robot-project/).
+Make sure you are in the project directory (i.e. .../robot-project/) and you have your python environment sourced (```source venv/bin/activate```).
 
 Use the ```git status``` command to see created/deleted/modified files.
 
@@ -65,6 +65,11 @@ git checkout master
 Once on the **master** branch, **pull** the latest changes from Github:
 ```
 git pull
+```
+
+Make sure your python environment has all of its requirements:
+```
+pip install -r requirements.txt
 ```
 
 Now that you have the latest changes, its time to create a new branch to work on:
